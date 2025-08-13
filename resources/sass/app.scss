@@ -1,0 +1,29 @@
+// // Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// // Variables
+// @import 'variables';
+
+// // Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+// @import '~overlayscrollbars/css/OverlayScrollbars.css';
+@import '~icheck-bootstrap/icheck-bootstrap.css';
+
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$theme-colors: (
+  primary: #632b8d,
+  // primary: #512B81,
+  secondary: #8559A5,
+  success: #357C3C
+);
+@import "bootstrap";
+@import '~bootstrap/scss/bootstrap';
+
+@import '../../vendor/almasaeed2010/adminlte/dist/css/adminlte.css';
